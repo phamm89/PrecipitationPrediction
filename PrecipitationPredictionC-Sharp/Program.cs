@@ -79,7 +79,7 @@ namespace PrecipitationPrediction
                     	}
 
                 }
-                Console.WriteLine($"\nThe predicted precipitation amount in the 27612 zipcode\n for {date} is {avgPRCP} units of precipitation.");
+                Console.WriteLine($"\nThe predicted precipitation amount in the 27612 zipcode\nfor {date} is {avgPRCP} units of precipitation.");
             }
             return $"\nIf you would like to predict the precipitation for another date, \nplease run the app again.";
         }
