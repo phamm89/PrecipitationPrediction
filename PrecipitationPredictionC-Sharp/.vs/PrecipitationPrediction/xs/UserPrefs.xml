@@ -4,13 +4,15 @@
     <Files>
       <File FileName="Precipitation.cs" Line="1" Column="1" />
       <File FileName="precipitation.json" />
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="83" Column="144" />
+      <File FileName="PrecipitationTests.cs" Line="3" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PrecipitationPrediction" expanded="True">
             <Node name="PrecipitationPrediction" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
