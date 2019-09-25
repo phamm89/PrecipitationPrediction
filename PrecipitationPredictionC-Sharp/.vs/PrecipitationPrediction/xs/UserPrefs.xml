@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{C524E3B6-C95C-4BFC-B63B-C226EE9AA41F}|Default">
   <MonoDevelop.Ide.ItemProperties.PrecipitationPrediction PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrecipitationTests.cs">
     <Files>
       <File FileName="Precipitation.cs" Line="1" Column="1" />
       <File FileName="precipitation.json" />
       <File FileName="Program.cs" Line="83" Column="144" />
-      <File FileName="PrecipitationTests.cs" Line="3" Column="34" />
+      <File FileName="PrecipitationTests.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="PrecipitationPrediction" expanded="True">
             <Node name="PrecipitationPrediction" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="PrecipitationTests.cs" selected="True" />
             </Node>
           </Node>
         </State>
