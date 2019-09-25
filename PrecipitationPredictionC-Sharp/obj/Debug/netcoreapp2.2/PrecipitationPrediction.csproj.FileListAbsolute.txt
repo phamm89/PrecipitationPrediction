@@ -8,3 +8,13 @@
 /Users/phamm89/C#/PrecipitationPrediction/obj/Debug/netcoreapp2.2/PrecipitationPrediction.AssemblyInfo.cs
 /Users/phamm89/C#/PrecipitationPrediction/obj/Debug/netcoreapp2.2/PrecipitationPrediction.dll
 /Users/phamm89/C#/PrecipitationPrediction/obj/Debug/netcoreapp2.2/PrecipitationPrediction.pdb
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/bin/Debug/netcoreapp2.2/PrecipitationPrediction.deps.json
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/bin/Debug/netcoreapp2.2/PrecipitationPrediction.runtimeconfig.json
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/bin/Debug/netcoreapp2.2/PrecipitationPrediction.runtimeconfig.dev.json
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/bin/Debug/netcoreapp2.2/PrecipitationPrediction.dll
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/bin/Debug/netcoreapp2.2/PrecipitationPrediction.pdb
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/obj/Debug/netcoreapp2.2/PrecipitationPrediction.csprojAssemblyReference.cache
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/obj/Debug/netcoreapp2.2/PrecipitationPrediction.AssemblyInfoInputs.cache
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/obj/Debug/netcoreapp2.2/PrecipitationPrediction.AssemblyInfo.cs
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/obj/Debug/netcoreapp2.2/PrecipitationPrediction.dll
+/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/obj/Debug/netcoreapp2.2/PrecipitationPrediction.pdb

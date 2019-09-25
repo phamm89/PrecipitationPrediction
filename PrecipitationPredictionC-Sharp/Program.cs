@@ -42,20 +42,46 @@ namespace PrecipitationPrediction
                     date = DateTime.Now.ToString("M/d");
                 }
 
+                /* Counters */
+                    /* precipSum will store accumulated precipitation totals for each date value in data that matches input */
+                double precipSum=0;
+                    /* count will increase each time a data value matches input date */
+                double count=0;
+                    /* Average Precipitation */
+                double avgPRCP=0;
+                int j=0;
+
                 /* Find the corresponding date values from the JSON data */
-                int j = 0;
+                /* There are 4492 data values in the JSON data */
 				for (int i = 0; i < 4492; i++)
 				{
 					/* Return the average precipitation for the corresponding input date */
 					if (precipData[i].DATE == date)
 					{
-						return $"\nThe predicted precipitation for {date} is {precipData[i].PRCP} in the 27612 zipcode. {j} times";
+						/* Print statement test to provide output for each entry that corresponded with input date
+                        Console.WriteLine($"\nThe predicted precipitation value for {date} was {avgPRCP}"); 
+                        */
+                        /* Store the precipitation value as a string and convert to a double */
+                        string dataInt = precipData[i].PRCP;
+                        double dataInteger = Convert.ToDouble(dataInt);
+
+                        /* Calculate total precipitation on a given date based on data */
+                        precipSum = precipSum + dataInteger;
+
+                        count++;
+
+                        /* Calculate average precipitation for given date */
+                        avgPRCP = precipSum/count;
 					}
-                    j++;
-				}
-				/* If there is no data, then return the following. */
-				return $"\nThere is no historical data available to predict precipitation for {date}.";
+                    if (precipData[i].DATE != date)
+                    {
+                        j++;
+                    }
+
+                }
+                Console.WriteLine($"\nThe predicted precipitation amount for {date} is {avgPRCP} units of precipitation.");
             }
+            return $"\nIf you would like to predict the precipitation for another date, \nplease run the app again.";
         }
     } 
 } 

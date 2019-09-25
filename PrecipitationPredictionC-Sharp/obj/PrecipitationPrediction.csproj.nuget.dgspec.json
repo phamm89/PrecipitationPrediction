@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPrediction.csproj": {}
+    "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/PrecipitationPrediction.csproj": {}
   },
   "projects": {
-    "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPrediction.csproj": {
+    "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/PrecipitationPrediction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPrediction.csproj",
+        "projectUniqueName": "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/PrecipitationPrediction.csproj",
         "projectName": "PrecipitationPrediction",
-        "projectPath": "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPrediction.csproj",
+        "projectPath": "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/PrecipitationPrediction.csproj",
         "packagesPath": "/Users/phamm89/.nuget/packages/",
-        "outputPath": "/Users/phamm89/C#/PrecipitationPrediction/obj/",
+        "outputPath": "/Users/phamm89/C#/PrecipitationPrediction/PrecipitationPredictionC-Sharp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
