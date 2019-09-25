@@ -34,7 +34,7 @@ namespace PrecipitationPrediction
                 string json = precip.ReadToEnd();
 
                 /* JSON Deserialization */
-				var precipData = JsonConvert.DeserializeObject<dynamic>(json);
+		var precipData = JsonConvert.DeserializeObject<dynamic>(json);
             
                 /* Assign current date if input date is blank */
                 if (date == "")
@@ -53,30 +53,30 @@ namespace PrecipitationPrediction
 
                 /* Find the corresponding date values from the JSON data */
                 /* There are 4492 data values in the JSON data */
-				for (int i = 0; i < 4492; i++)
-				{
-					/* Return the average precipitation for the corresponding input date */
-					if (precipData[i].DATE == date)
-					{
-						/* Print statement test to provide output for each entry that corresponded with input date
-                        Console.WriteLine($"\nThe predicted precipitation value for {date} was {avgPRCP}"); 
-                        */
-                        /* Store the precipitation value as a string and convert to a double */
-                        string dataInt = precipData[i].PRCP;
-                        double dataInteger = Convert.ToDouble(dataInt);
+		for (int i = 0; i < 4492; i++)
+		{
+			/* Return the average precipitation for the corresponding input date */
+			if (precipData[i].DATE == date)
+			{
+				/* Print statement test to provide output for each entry that corresponded with input date
+                        	Console.WriteLine($"\nThe predicted precipitation value for {date} was {avgPRCP}"); 
+                        	*/
+                        	/* Store the precipitation value as a string and convert to a double */
+                        	string dataInt = precipData[i].PRCP;
+                        	double dataInteger = Convert.ToDouble(dataInt);
 
-                        /* Calculate total precipitation on a given date based on data */
-                        precipSum = precipSum + dataInteger;
+                        	/* Calculate total precipitation on a given date based on data */
+                        	precipSum = precipSum + dataInteger;
 
-                        count++;
+                        	count++;
 
-                        /* Calculate average precipitation for given date */
-                        avgPRCP = precipSum/count;
-					}
-                    if (precipData[i].DATE != date)
-                    {
-                        j++;
-                    }
+                        	/* Calculate average precipitation for given date */
+                        	avgPRCP = precipSum/count;
+			}
+                    	if (precipData[i].DATE != date)
+                    	{
+                        	j++;
+                    	}
 
                 }
                 Console.WriteLine($"\nThe predicted precipitation amount for {date} is {avgPRCP} units of precipitation.");
