@@ -10,7 +10,7 @@ namespace PrecipitationPrediction
         [Test]
         public void PrecipitationGivenDate()
         {
-            /* No Input */
+            /* User Input */
             string date = "9/21";
 
             /* Expected Output */
