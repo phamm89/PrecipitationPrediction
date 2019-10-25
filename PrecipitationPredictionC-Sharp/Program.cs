@@ -54,6 +54,7 @@ namespace PrecipitationPrediction
 
                 /* Find the corresponding date values from the JSON data */
                 /* There are 4492 data values in the JSON data */
+                /* More efficient manner of counting would be to make a call on the array length */
 		for (int i = 0; i < 4492; i++)
 		{
 			/* Return the average precipitation for the corresponding input date */
